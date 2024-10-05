@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".widget.toolbar.SearchBarActivity"
+    >
+  <com.pasc.lib.widget.toolbar.PascSearchBar
+      android:id="@+id/search_bar"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/actionbar_height"
+      android:hint="请输入搜索内容"
+      android:textColor="#333333"
+      android:textColorHint="#c7c7c7"
+      android:textSize="12sp"
+      app:back_icon="@drawable/ic_back_black"
+      app:enable_close_button="true"
+      app:enable_under_divider="true"
+      app:menu_text_color="#27A5F9"
+      app:menu_text_size="16sp"
+      app:mode="edit_model"
+      app:search_content=""
+      app:support_translucent_status_bar="true"
+      app:under_divider_color="@color/divider"
+      app:under_divider_height="1px"/>
+
+  <com.pasc.lib.widget.toolbar.PascSearchBar
+      android:id="@+id/search_bar_edit_not"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/actionbar_height"
+      android:hint="请输入搜索内容"
+      app:mode="clickable_model"
+      />
+  <com.pasc.lib.widget.toolbar.PascSearchBar
+      android:id="@+id/search_bar_no_back"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/actionbar_height"
+      android:hint="请输入搜索内容"
+      app:enable_close_button="false"
+      />
+  <TextView
+      android:id="@+id/result_view"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:padding="8dp"
+      android:layout_weight="1"
+      />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 该文件存放主题相关的资源，包括颜色，样式等 -->
+
+    <!-- APP的主色 -->
+    <color name="pasc_primary">#27a5f9</color>
+
+    <!-- 对话框取消按钮颜色 -->
+    <color name="pasc_dialog_cancel_text">#666666</color>
+
+    <!-- 对话框确认按钮颜色 -->
+    <color name="pasc_dialog_confirm_text">@color/pasc_primary</color>
+
+    <!-- 功能色 -->
+    <!-- 可点击 -->
+    <color name="pasc_clickable">#27a5f9</color>
+    <!-- 成功 -->
+    <color name="pasc_success">#73d13d</color>
+    <!-- 警告 -->
+    <color name="pasc_warning">#faad14</color>
+    <!-- 错误 -->
+    <color name="pasc_error">#ff4d4f</color>
+
+    <!-- 中性色 -->
+    <!-- 主文本色 -->
+    <color name="pasc_primary_text">#333333</color>
+    <!-- 次要文本色 -->
+    <color name="pasc_secondary_text">#666666</color>
+    <!-- 说明性/标签文本色 -->
+    <color name="pasc_explain_text">#999999</color>
+    <!-- 暗提示文本色 -->
+    <color name="pasc_hint_text">#c7c7c7</color>
+    <!-- 标签栏边界色 -->
+    <color name="pasc_label_bar_edge">#e0e0e0</color>
+    <!-- 分割线颜色 -->
+    <color name="pasc_divider">#e8e8e8</color>
+    <!-- 图片加载前占位色颜色 -->
+    <color name="pasc_image_placeholder">#f4f4f4</color>
+    <!-- 点击反馈颜色 -->
+    <color name="pasc_click_feedback">#f2f2f2</color>
+
+    <!-- 配置界面背景颜色 -->
+    <color name="pasc_bg_configurable_page">#f2f6f9</color>
+
+</resources>

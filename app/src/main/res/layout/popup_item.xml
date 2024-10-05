@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:foreground="@drawable/fg_clickable"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:clickable="true"
+    >
+    <View android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E0E0E0"
+        />
+        <LinearLayout
+            android:id="@+id/lin_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="51dp"
+            android:gravity="center">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_keycar_edit"/>
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:textSize="15dp"
+                android:textColor="#333333"
+                android:text="item1"/>
+
+        </LinearLayout>
+
+</LinearLayout>

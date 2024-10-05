@@ -1,0 +1,17 @@
+{
+  "type": "container-oneColumn",
+  "style": {
+    "padding": "[0,0,8,0]",
+    "bgColor": "#ffffff"
+  },
+  "header": {
+    "type": "component-cardHeader",
+    "style": {
+      "padding": "[0,0,8,0]"
+    },
+    "title": "基础控件",
+    "titleBold": true,
+    "arrowIconVisible": false
+  },
+  "items": []
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/defaultButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="默认" />
+
+        <Button
+            android:id="@+id/setItemsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置新的选择项" />
+
+        <Button
+            android:id="@+id/setTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置新的文本" />
+
+        <Button
+            android:id="@+id/setListenerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置监听器" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.默认的对话框没有设置选项，使用时注意设置。" />
+
+
+    </LinearLayout>
+</ScrollView>

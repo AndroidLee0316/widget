@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:minHeight="44dp"
+   >
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/pasc_dialog_secondary_button_bg"
+        android:foreground="@drawable/fg_clickable"
+        android:minHeight="44dp"
+        android:clickable="false"
+        android:stateListAnimator="@null"
+        android:text="确定"
+        android:textColor="@color/pasc_secondary_text"
+        android:textSize="17sp" />
+
+</FrameLayout>

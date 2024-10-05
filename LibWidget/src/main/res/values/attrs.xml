@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="SliderLayout">
+
+    <!-- indicator visibility -->
+    <attr format="enum" name="indicator_visibility">
+      <enum name="visible" value="0"/>
+      <enum name="invisible" value="1"/>
+    </attr>
+
+    <attr format="boolean" name="auto_cycle"/>
+
+    <!-- page animation -->
+    <attr format="enum" name="pager_animation">
+      <enum name="Default" value="0">Default</enum>
+      <enum name="Accordion" value="1">Accordion</enum>
+      <enum name="Background2Foreground" value="2">Background2Foreground</enum>
+      <enum name="CubeIn" value="3">CubeIn</enum>
+      <enum name="DepthPage" value="4">DepthPage</enum>
+      <enum name="Fade" value="5">Fade</enum>
+      <enum name="FlipHorizontal" value="6">FlipHorizontal</enum>
+      <enum name="FlipPage" value="7">FlipPage</enum>
+      <enum name="Foreground2Background" value="8">Foreground2Background</enum>
+      <enum name="RotateDown" value="9">RotateDown</enum>
+      <enum name="RotateUp" value="10">RotateUp</enum>
+      <enum name="Stack" value="11">Stack</enum>
+      <enum name="Tablet" value="12">Tablet</enum>
+      <enum name="ZoomIn" value="13">ZoomIn</enum>
+      <enum name="ZoomOutSlide" value="14">ZoomOutSlide</enum>
+      <enum name="ZoomOut" value="15">ZoomOut</enum>
+    </attr>
+
+    <!-- page animation time span -->
+    <attr format="integer" name="pager_animation_span"/>
+    <attr format="integer" name="pager_animation_duration"/>
+
+    <attr format="float" name="ratio"/>
+    <attr format="dimension" name="img_radius"/>
+    <attr format="reference" name="default_img"/>
+
+  </declare-styleable>
+
+  <declare-styleable name="PagerIndicator">
+    <!-- indicator visibility -->
+    <attr format="enum" name="visibility">
+      <enum name="visible" value="0"/>
+      <enum name="invisible" value="1"/>
+    </attr>
+
+    <attr format="enum" name="shape">
+      <enum name="oval" value="0"/>
+      <enum name="rect" value="1"/>
+      <enum name="select_rect" value="2"/>
+      <enum name="select_oval" value="3"/>
+    </attr>
+
+    <attr format="color" name="selected_color"/>
+    <attr format="color" name="unselected_color"/>
+
+    <!-- indicator style -->
+    <attr format="reference" name="selected_drawable"/>
+    <attr format="reference" name="unselected_drawable"/>
+
+    <attr format="dimension" name="selected_width"/>
+    <attr format="dimension" name="selected_height"/>
+
+    <attr format="dimension" name="unselected_width"/>
+    <attr format="dimension" name="unselected_height"/>
+
+    <attr format="dimension" name="padding_left"/>
+    <attr format="dimension" name="padding_right"/>
+    <attr format="dimension" name="padding_top"/>
+    <attr format="dimension" name="padding_bottom"/>
+
+    <attr format="dimension" name="selected_padding_left"/>
+    <attr format="dimension" name="selected_padding_right"/>
+    <attr format="dimension" name="selected_padding_top"/>
+    <attr format="dimension" name="selected_padding_bottom"/>
+
+    <attr format="dimension" name="unselected_padding_left"/>
+    <attr format="dimension" name="unselected_padding_right"/>
+    <attr format="dimension" name="unselected_padding_top"/>
+    <attr format="dimension" name="unselected_padding_bottom"/>
+
+
+  </declare-styleable>
+
+  <declare-styleable name="Themes">
+    <attr format="reference" name="SliderStyle"/>
+    <attr format="reference" name="PagerIndicatorStyle"/>
+  </declare-styleable>
+
+
+  <!--<declare-styleable name="NumberPicker">-->
+  <!--<attr name="flingable" format="boolean" />-->
+  <!--<attr name="layout" />-->
+  <!--<attr name="maxHeight" />-->
+  <!--<attr name="maxWidth" format="dimension" />-->
+  <!--<attr name="minHeight" format="dimension" />-->
+  <!--<attr name="minWidth" format="dimension" />-->
+  <!--<attr name="normalTextColor" format="color|reference" />-->
+  <!--<attr name="normalTextSize" format="dimension" />-->
+  <!--<attr name="selectionDivider" format="reference" />-->
+  <!--<attr name="selectionDividerHeight" format="dimension" />-->
+  <!--<attr name="selectionDividersDistance" format="dimension" />-->
+  <!--<attr name="solidColor" format="color|reference" />-->
+  <!--<attr name="virtualButtonPressedDrawable" format="reference" />-->
+  <!--</declare-styleable>-->
+
+
+  <declare-styleable name="Theme">
+    <attr format="reference" name="absListViewStyle"/>
+    <attr name="actionBarDivider"/>
+    <attr name="actionBarItemBackground"/>
+    <attr name="actionBarSize"/>
+    <attr name="actionBarSplitStyle"/>
+    <attr name="actionBarStyle"/>
+    <attr name="actionBarTabBarStyle"/>
+    <attr name="actionBarTabStyle"/>
+    <attr format="reference" name="actionBarSubTabStyle"/>
+    <attr name="actionBarTabTextStyle"/>
+    <attr format="reference" name="actionBarSubTabTextStyle"/>
+    <attr name="actionBarWidgetTheme"/>
+    <attr name="actionButtonStyle"/>
+    <attr format="reference" name="actionButtonStyle_menuitem"/>
+    <attr name="actionDropDownStyle"/>
+    <attr name="actionMenuTextColor"/>
+    <attr name="actionModeBackground"/>
+    <attr name="actionModeCloseButtonStyle"/>
+    <attr name="actionModeCloseDrawable"/>
+    <attr name="actionModeCopyDrawable"/>
+    <attr name="actionModeCutDrawable"/>
+    <attr name="actionModeFindDrawable"/>
+    <attr name="actionModePasteDrawable"/>
+    <attr name="actionModePopupWindowStyle"/>
+    <attr name="actionModeSelectAllDrawable"/>
+    <attr name="actionModeShareDrawable"/>
+    <attr name="actionModeSplitBackground"/>
+    <attr name="actionModeStyle"/>
+    <attr name="actionModeWebSearchDrawable"/>
+    <attr name="actionOverflowButtonStyle"/>
+    <attr format="reference" name="activatedBackgroundIndicator"/>
+    <attr name="activityChooserViewStyle"/>
+    <attr format="reference" name="alertDialogButtonGroupStyle"/>
+    <attr format="boolean" name="alertDialogCenterButtons"/>
+    <attr format="reference" name="alertDialogIcon"/>
+    <attr format="reference" name="alertDialogStyle"/>
+    <attr format="reference" name="alertDialogTheme"/>
+    <attr format="reference" name="autoCompleteTextViewStyle"/>
+    <attr format="float" name="backgroundDimAmount"/>
+    <attr format="boolean" name="backgroundDimEnabled"/>
+    <attr format="reference" name="borderlessButtonStyle"/>
+    <attr name="buttonBarButtonStyle"/>
+    <attr name="buttonBarStyle"/>
+    <attr format="reference" name="buttonStyle"/>
+    <attr format="reference" name="buttonStyleInset"/>
+    <attr format="reference" name="buttonStyleSmall"/>
+    <attr format="reference" name="buttonStyleToggle"/>
+    <attr format="reference" name="calendarViewStyle"/>
+    <attr format="reference|string" name="candidatesTextStyleSpans"/>
+    <attr format="reference" name="checkBoxPreferenceStyle"/>
+    <attr format="reference" name="checkboxStyle"/>
+    <attr format="reference" name="checkedTextViewStyle"/>
+    <attr format="color" name="colorAccent"/>
+    <attr format="color" name="colorActivatedHighlight"/>
+    <attr format="color" name="colorBackground"/>
+    <attr format="color" name="colorBackgroundCacheHint"/>
+    <attr format="color" name="colorControlActivated"/>
+    <attr format="color" name="colorControlHighlight"/>
+    <attr format="color" name="colorControlNormal"/>
+    <attr format="color" name="colorFocusedHighlight"/>
+    <attr format="color" name="colorForeground"/>
+    <attr format="color" name="colorForegroundInverse"/>
+    <attr format="color" name="colorLongPressedHighlight"/>
+    <attr format="color" name="colorMultiSelectHighlight"/>
+    <attr format="color" name="colorPressedHighlight"/>
+    <attr format="color" name="colorPrimary"/>
+    <attr format="color" name="colorPrimaryDark"/>
+    <attr format="reference" name="datePickerStyle"/>
+    <attr format="reference" name="dateTimePickerStyle"/>
+    <attr format="reference" name="detailsElementBackground"/>
+    <attr format="reference" name="dialogCustomTitleDecorLayout"/>
+    <attr format="reference" name="dialogPreferenceStyle"/>
+    <attr format="reference" name="dialogTheme"/>
+    <attr format="reference" name="dialogTitleDecorLayout"/>
+    <attr format="reference" name="dialogTitleIconsDecorLayout"/>
+    <attr format="float" name="disabledAlpha"/>
+    <attr name="dividerHorizontal"/>
+    <attr name="dividerVertical"/>
+    <attr format="reference" name="dropDownHintAppearance"/>
+    <attr format="reference" name="dropDownItemStyle"/>
+    <attr name="dropDownListViewStyle"/>
+    <attr format="reference" name="dropDownSpinnerStyle"/>
+    <attr name="dropdownListPreferredItemHeight"/>
+    <attr format="reference" name="editTextBackground"/>
+    <attr format="reference|color" name="editTextColor"/>
+    <attr format="reference" name="editTextPreferenceStyle"/>
+    <attr format="reference" name="errorMessageAboveBackground"/>
+    <attr format="reference" name="errorMessageBackground"/>
+    <attr format="dimension" name="expandableListPreferredChildIndicatorLeft"/>
+    <attr format="dimension" name="expandableListPreferredChildIndicatorRight"/>
+    <attr format="dimension" name="expandableListPreferredChildPaddingLeft"/>
+    <attr format="dimension" name="expandableListPreferredItemIndicatorLeft"/>
+    <attr format="dimension" name="expandableListPreferredItemIndicatorRight"/>
+    <attr format="dimension" name="expandableListPreferredItemPaddingLeft"/>
+    <attr format="reference" name="expandableListViewStyle"/>
+    <attr format="reference" name="expandableListViewWhiteStyle"/>
+    <attr name="fastScrollOverlayPosition">
+      <enum name="floating" value="0"/>
+      <enum name="atThumb" value="1"/>
+    </attr>
+    <attr format="reference" name="fastScrollPreviewBackgroundLeft"/>
+    <attr format="reference" name="fastScrollPreviewBackgroundRight"/>
+    <attr format="color" name="fastScrollTextColor"/>
+    <attr format="reference" name="fastScrollThumbDrawable"/>
+    <attr format="reference" name="fastScrollTrackDrawable"/>
+    <attr format="reference" name="galleryItemBackground"/>
+    <attr format="reference" name="galleryStyle"/>
+    <attr format="reference" name="gestureOverlayViewStyle"/>
+    <attr format="reference" name="gifViewStyle"/>
+    <attr format="reference" name="twsEditTextStyle"/>
+    <attr format="reference" name="gridViewStyle"/>
+    <attr name="homeAsUpIndicator"/>
+    <attr format="reference" name="horizontalScrollViewStyle"/>
+    <attr format="reference" name="imageButtonStyle"/>
+    <attr format="reference" name="imageWellStyle"/>
+    <attr name="listChoiceBackgroundIndicator"/>
+    <attr format="reference" name="listChoiceIndicatorMultiple"/>
+    <attr format="reference" name="listChoiceIndicatorSingle"/>
+    <attr format="reference" name="listDivider"/>
+    <attr format="reference" name="listDividerAlertDialog"/>
+    <attr name="listPopupWindowStyle"/>
+    <attr name="listPreferredItemHeight"/>
+    <attr name="listPreferredItemHeightLarge"/>
+    <attr name="listPreferredItemHeightSmall"/>
+    <attr name="listPreferredItemPaddingLeft"/>
+    <attr name="listPreferredItemPaddingRight"/>
+    <attr format="reference" name="listSeparatorTextViewStyle"/>
+    <attr format="reference" name="listViewStyle"/>
+    <attr format="reference" name="listViewWhiteStyle"/>
+    <attr format="reference" name="mapViewStyle"/>
+    <!--<attr name="panelBackground" format="reference|color" />-->
+    <attr format="reference|color" name="panelColorBackground"/>
+    <attr format="reference|color" name="panelColorForeground"/>
+    <attr format="reference|color" name="panelFullBackground"/>
+    <attr format="boolean" name="panelMenuIsCompact"/>
+    <attr name="panelMenuListTheme"/>
+    <attr name="panelMenuListWidth"/>
+    <attr format="reference" name="pointerStyle"/>
+    <attr name="popupMenuStyle"/>
+    <attr format="reference" name="popupWindowStyle"/>
+    <attr format="reference" name="preferenceCategoryStyle"/>
+    <attr format="reference" name="preferenceFragmentStyle"/>
+    <attr format="reference" name="preferenceFrameLayoutStyle"/>
+    <attr format="reference" name="preferenceInformationStyle"/>
+    <attr format="reference" name="preferenceLayoutChild"/>
+    <attr format="dimension" name="preferenceLeftPadding"/>
+    <attr format="reference" name="preferencePanelStyle"/>
+    <attr format="dimension" name="preferenceRightPadding"/>
+    <attr format="reference" name="preferenceScreenStyle"/>
+    <attr format="reference" name="preferenceStyle"/>
+    <attr name="progressBarStyle"/>
+    <attr format="reference" name="progressBarStyleHorizontal"/>
+    <attr format="reference" name="progressBarStyleInverse"/>
+    <attr format="reference" name="progressBarStyleLarge"/>
+    <attr format="reference" name="progressBarStyleLargeInverse"/>
+    <attr format="reference" name="progressBarStyleSmall"/>
+    <attr format="reference" name="progressBarStyleSmallInverse"/>
+    <attr format="reference" name="progressBarStyleSmallTitle"/>
+    <attr format="reference" name="quickContactBadgeOverlay"/>
+    <attr format="reference" name="quickContactBadgeStyleSmallWindowLarge"/>
+    <attr format="reference" name="quickContactBadgeStyleSmallWindowMedium"/>
+    <attr format="reference" name="quickContactBadgeStyleSmallWindowSmall"/>
+    <attr format="reference" name="quickContactBadgeStyleWindowLarge"/>
+    <attr format="reference" name="quickContactBadgeStyleWindowMedium"/>
+    <attr format="reference" name="quickContactBadgeStyleWindowSmall"/>
+    <attr format="reference" name="radioButtonStyle"/>
+    <attr format="reference" name="ratingBarStyle"/>
+    <attr format="reference" name="ratingBarStyleIndicator"/>
+    <attr format="reference" name="ratingBarStyleSmall"/>
+    <attr format="reference" name="ringtonePreferenceStyle"/>
+    <attr format="reference" name="scrollViewStyle"/>
+    <attr format="reference" name="searchDialogTheme"/>
+    <attr format="reference|color" name="searchDropdownBackground"/>
+    <attr format="dimension" name="searchResultListItemHeight"/>
+    <attr format="reference" name="searchViewBackground"/>
+    <attr format="reference" name="searchViewCancel"/>
+    <attr format="reference" name="searchViewCloseIcon"/>
+    <attr format="reference" name="searchViewCursorDrawable"/>
+    <attr format="reference" name="searchViewEditQuery"/>
+    <attr format="reference|color"  name="searchViewEditQueryBackground"/>
+    <attr format="reference" name="searchViewEditorBackground"/>
+    <attr format="reference" name="searchViewGoIcon"/>
+    <attr format="reference" name="searchViewSearchIcon"/>
+    <attr format="reference" name="searchViewStyle"/>
+    <attr format="reference" name="searchViewTextColor"/>
+    <attr format="reference" name="searchViewTextColorHint"/>
+    <attr format="reference" name="searchViewTextField"/>
+    <attr format="reference" name="searchViewTextFieldRight"/>
+    <attr format="reference" name="searchViewVoiceIcon"/>
+    <attr format="reference|color" name="searchWidgetCorpusItemBackground"/>
+    <attr format="reference" name="seekBarStyle"/>
+    <attr format="reference" name="segmentedButtonStyle"/>
+    <attr name="selectableItemBackground"/>
+    <attr name="spinnerDropDownItemStyle"/>
+    <attr format="reference" name="spinnerItemStyle"/>
+    <attr name="spinnerStyle"/>
+    <attr format="reference" name="stackViewStyle"/>
+    <attr format="reference" name="starStyle"/>
+    <attr format="reference" name="switchPreferenceStyle"/>
+    <attr format="reference" name="switchStyle"/>
+    <attr format="reference" name="tabWidgetStyle"/>
+    <attr format="reference" name="textAppearance"/>
+    <attr format="reference" name="textAppearanceAutoCorrectionSuggestion"/>
+    <attr format="reference" name="textAppearanceButton"/>
+    <attr format="reference" name="textAppearanceEasyCorrectSuggestion"/>
+    <attr format="reference" name="textAppearanceInverse"/>
+    <attr format="reference" name="textAppearanceLarge"/>
+    <attr format="reference" name="textAppearanceLargeInverse"/>
+    <attr name="textAppearanceLargePopupMenu"/>
+    <attr name="textAppearanceListItem"/>
+    <attr name="textAppearanceListItemSmall"/>
+    <attr format="reference" name="textAppearanceMedium"/>
+    <attr format="reference" name="textAppearanceMediumInverse"/>
+    <attr format="reference" name="textAppearanceMisspelledSuggestion"/>
+    <attr name="textAppearanceSearchResultSubtitle"/>
+    <attr name="textAppearanceSearchResultTitle"/>
+    <attr format="reference" name="textAppearanceSmall"/>
+    <attr format="reference" name="textAppearanceSmallInverse"/>
+    <attr format="reference" name="textCheckMark"/>
+    <attr format="reference" name="textCheckMarkInverse"/>
+    <attr format="reference|color" name="textColorAlertDialogListItem"/>
+    <attr format="reference|color" name="textColorHighlightInverse"/>
+    <attr format="reference|color" name="textColorHintInverse"/>
+    <attr format="reference|color" name="textColorLinkInverse"/>
+    <attr format="reference|color" name="textColorPrimary"/>
+    <attr format="reference|color" name="textColorPrimaryDisableOnly"/>
+    <attr format="reference|color" name="textColorPrimaryInverse"/>
+    <attr format="reference|color" name="textColorPrimaryInverseDisableOnly"/>
+    <attr format="reference|color" name="textColorPrimaryInverseNoDisable"/>
+    <attr format="reference|color" name="textColorPrimaryNoDisable"/>
+    <attr name="textColorSearchUrl"/>
+    <attr format="reference|color" name="textColorSecondary"/>
+    <attr format="reference|color" name="textColorSecondaryInverse"/>
+    <attr format="reference|color" name="textColorSecondaryInverseNoDisable"/>
+    <attr format="reference|color" name="textColorSecondaryNoDisable"/>
+    <attr format="reference|color" name="textColorTertiary"/>
+    <attr format="reference|color" name="textColorTertiaryInverse"/>
+    <attr format="reference" name="textEditNoPasteWindowLayout"/>
+    <attr format="reference" name="textEditPasteWindowLayout"/>
+    <attr format="reference" name="textEditSideNoPasteWindowLayout"/>
+    <attr format="reference" name="textEditSidePasteWindowLayout"/>
+    <attr format="reference" name="textEditSuggestionItemLayout"/>
+    <attr format="reference" name="textSelectHandle"/>
+    <attr format="reference" name="textSelectHandleLeft"/>
+    <attr format="reference" name="textSelectHandleRight"/>
+    <attr format="reference" name="textSelectHandleWindowStyle"/>
+    <attr format="reference" name="textSuggestionsWindowStyle"/>
+    <attr format="reference|color" name="textUnderlineColor"/>
+    <attr format="reference|dimension" name="textUnderlineThickness"/>
+    <attr format="reference" name="textViewStyle"/>
+    <attr format="reference" name="timePickerStyle"/>
+    <attr format="reference" name="toastFrameBackground"/>
+    <attr format="reference" name="webTextViewStyle"/>
+    <attr format="reference" name="webViewStyle"/>
+    <attr name="windowActionBar"/>
+    <attr name="windowActionBarOverlay"/>
+    <attr format="reference" name="windowAnimationStyle"/>
+    <attr format="reference" name="windowBackground"/>
+    <attr format="boolean" name="windowCloseOnTouchOutside"/>
+    <attr format="reference" name="windowContentOverlay"/>
+    <attr format="boolean" name="windowDisablePreview"/>
+    <attr format="boolean" name="windowEnableSplitTouch"/>
+    <attr format="reference" name="windowFrame"/>
+    <attr format="boolean" name="windowFullscreen"/>
+    <attr format="boolean" name="windowIsFloating"/>
+    <attr format="boolean" name="windowIsTranslucent"/>
+    <attr format="boolean" name="windowNoDisplay"/>
+    <attr format="boolean" name="windowNoTitle"/>
+    <attr format="boolean" name="windowShowWallpaper"/>
+    <attr name="windowSoftInputMode">
+      <flag name="stateUnspecified" value="0"/>
+      <flag name="stateUnchanged" value="1"/>
+      <flag name="stateHidden" value="2"/>
+      <flag name="stateAlwaysHidden" value="3"/>
+      <flag name="stateVisible" value="4"/>
+      <flag name="stateAlwaysVisible" value="5"/>
+      <flag name="adjustUnspecified" value="0x00"/>
+      <flag name="adjustResize" value="0x10"/>
+      <flag name="adjustPan" value="0x20"/>
+      <flag name="adjustNothing" value="0x30"/>
+    </attr>
+    <attr format="reference" name="windowSplitActionBar"/>
+    <attr format="reference" name="windowTitleBackgroundStyle"/>
+    <attr format="dimension" name="windowTitleSize"/>
+    <attr format="reference" name="windowTitleStyle"/>
+    <attr format="reference" name="yesNoPreferenceStyle"/>
+    <attr format="reference" name="PascLoadingButtonStyle"/>
+    <attr format="reference" name="DefaultPageViewStyle"/>
+
+    <attr format="reference" name="FeedbackViewStyle"/>
+    <attr format="reference" name="PaExpandableListViewStyle"/>
+  </declare-styleable>
+
+  <declare-styleable name="TimePicker">
+    <attr name="layout"/>
+  </declare-styleable>
+
+  <declare-styleable name="DatePicker">
+    <attr format="boolean" name="calendarViewShown"/>
+    <attr format="integer" name="endYear"/>
+    <attr format="reference" name="layout"/>
+    <attr format="string" name="maxDate"/>
+    <attr format="string" name="minDate"/>
+    <attr format="boolean" name="spinnersShown"/>
+    <attr format="integer" name="startYear"/>
+    <attr format="boolean" name="lunarShown"/>
+    <attr format="boolean" name="unitShown"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="LoginRegisterView">
+    <attr format="color" name="buttonTextColor"/>
+    <attr format="dimension" name="buttonTextSize"/>
+    <attr format="string" name="buttonText"/>
+    <attr format="color" name="buttonBackground"/>
+    <attr format="color" name="editTextTextColor"/>
+    <attr format="dimension" name="editTextTextSize"/>
+    <attr format="string" name="editTextHintText"/>
+    <attr format="color" name="verificationTextColor"/>
+    <attr format="dimension" name="verificationTextSize"/>
+    <attr format="string" name="verificationText"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="InputEditTextView">
+
+    <attr format="integer" name="sumNumberValue"/>
+    <attr format="color" name="sumNumberTextColor"/>
+    <attr format="dimension" name="sumNumberTextSize"/>
+
+    <attr format="integer" name="currentNumberValue"/>
+    <attr format="color" name="currentNumberTextColor"/>
+    <attr format="dimension" name="currentNumberTextSize"/>
+
+    <attr format="boolean" name="numberShow"/>
+    <attr format="boolean" name="imgDelShow"/>
+
+  </declare-styleable>
+
+  <declare-styleable name="PascLoadingButton">
+    <attr format="string" name="text"/>
+    <attr format="dimension" name="text_size"/>
+    <attr format="color" name="text_color"/>
+    <attr format="color" name="pressed_text_color"/>
+    <attr format="reference" name="background"/>
+    <attr format="reference" name="loading_img"/>
+    <attr format="boolean" name="enabled"/>
+  </declare-styleable>
+
+
+  <attr format="reference" name="img"/>
+
+  <declare-styleable name="FeedbackView">
+
+    <attr name="img"/>
+
+    <attr format="string" name="titleText"/>
+    <attr format="dimension" name="titleTextSize"/>
+    <attr format="color" name="titleTextColor"/>
+
+    <attr format="string" name="descText"/>
+    <attr format="dimension" name="descTextSize"/>
+    <attr format="color" name="descTextColor"/>
+
+
+  </declare-styleable>
+
+
+  <declare-styleable name="DefaultPageView">
+
+    <attr name="img"/>
+    <attr format="string" name="desc"/>
+    <attr name="default_layout">
+      <enum name="no_data" value="0"/>
+      <enum name="no_address" value="1"/>
+      <enum name="no_message" value="2"/>
+      <enum name="no_network" value="3"/>
+      <enum name="no_search_result" value="4"/>
+      <enum name="server_error" value="5"/>
+      <enum name="server_maintain" value="6"/>
+    </attr>
+    <attr format="string" name="primary_button_text"/>
+    <attr format="reference" name="primary_button_background"/>
+    <attr format="color" name="primary_button_text_color"/>
+    <attr format="string" name="secondary_button_text"/>
+    <attr format="reference" name="secondary_button_background"/>
+    <attr format="color" name="secondary_button_text_color"/>
+
+
+  </declare-styleable>
+
+
+  <declare-styleable name="PaRecyclerView">
+
+    <attr format="dimension" name="listTextSize"/>
+    <attr format="color" name="listTextColor"/>
+
+
+  </declare-styleable>
+
+  <declare-styleable name="PaExpandableListView">
+
+    <attr format="dimension" name="groupTextSize"/>
+    <attr format="color" name="groupTextColor"/>
+
+    <attr format="dimension" name="childTextSize"/>
+    <attr format="color" name="childTextColor"/>
+
+
+  </declare-styleable>
+
+  <declare-styleable name="SkinBackgroundHelper">
+    <attr name="android:background"/>
+  </declare-styleable>
+
+  <declare-styleable name="SkinCompatImageView">
+    <attr name="android:src"/>
+    <attr name="srcCompat"/>
+  </declare-styleable>
+
+  <declare-styleable name="SkinCompatTextHelper">
+    <attr name="android:drawableLeft"/>
+    <attr name="android:drawableTop"/>
+    <attr name="android:drawableRight"/>
+    <attr name="android:drawableBottom"/>
+    <attr name="android:drawableStart"/>
+    <attr name="android:drawableEnd"/>
+    <attr name="android:textAppearance"/>
+  </declare-styleable>
+
+  <declare-styleable name="SkinTextAppearance">
+    <attr name="android:textSize"/>
+    <attr name="android:textColor"/>
+    <attr name="android:textColorHint"/>
+    <attr name="android:textStyle"/>
+    <attr name="android:typeface"/>
+    <attr name="textAllCaps"/>
+    <attr name="android:shadowColor"/>
+    <attr name="android:shadowDy"/>
+    <attr name="android:shadowDx"/>
+    <attr name="android:shadowRadius"/>
+  </declare-styleable>
+  <declare-styleable name="SkinCompatProgressBar">
+    <attr name="android:indeterminateDrawable"/>
+    <attr name="android:progressDrawable"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="RoundTextView">
+    <attr name="rv_backgroundColor"/>
+    <attr name="rv_backgroundPressColor"/>
+    <attr name="rv_cornerRadius"/>
+    <attr name="rv_strokeWidth"/>
+    <attr name="rv_strokeColor"/>
+    <attr name="rv_strokePressColor"/>
+    <attr name="rv_textPressColor"/>
+    <attr name="rv_isRadiusHalfHeight"/>
+    <attr name="rv_isWidthHeightEqual"/>
+    <attr name="rv_cornerRadius_TL"/>
+    <attr name="rv_cornerRadius_TR"/>
+    <attr name="rv_cornerRadius_BL"/>
+    <attr name="rv_cornerRadius_BR"/>
+    <attr name="rv_isRippleEnable"/>
+  </declare-styleable>
+
+
+  <attr format="dimension" name="srlDrawableSize"/><!--图片尺寸-->
+  <attr format="dimension" name="srlDrawableArrowSize"/><!--箭头图片尺寸-->
+  <attr format="dimension" name="srlDrawableProgressSize"/><!--箭头图片尺寸-->
+  <attr format="dimension" name="srlDrawableMarginRight"/><!--图片和文字的间距-->
+  <attr format="dimension" name="srlTextSizeTitle"/><!--标题字体-->
+  <attr format="dimension" name="srlTextSizeTime"/><!--时间字体-->
+  <attr format="integer" name="srlFinishDuration"/><!--完成时停留时间-->
+  <attr format="color" name="srlPrimaryColor"/><!--主要颜色-->
+  <attr format="color" name="srlAccentColor"/><!--强调颜色-->
+  <attr format="reference" name="srlDrawableArrow"/><!--箭头图片-->
+  <attr format="reference" name="srlDrawableProgress"/><!--转动图片-->
+  <attr format="boolean" name="srlEnableHorizontalDrag"/><!--支持水平拖动-->
+  <attr format="enum" name="srlClassicsSpinnerStyle">
+    <enum name="Translate" value="0"/><!--平行移动-->
+    <enum name="Scale" value="1"/><!--拉伸形变-->
+    <enum name="FixedBehind" value="2"/><!--固定在背后-->
+  </attr>
+
+  <attr format="enum" name="layout_srlSpinnerStyle">
+    <enum name="Translate" value="0"/><!--平行移动-->
+    <enum name="Scale" value="1"/><!--拉伸形变-->
+    <enum name="FixedBehind" value="2"/><!--固定在背后-->
+    <enum name="FixedFront" value="3"/><!--固定在前面-->
+    <enum name="MatchLayout" value="4"/><!--填满布局-->
+  </attr>
+
+
+  <declare-styleable name="Banner">
+    <attr format="integer" name="delay_time"/>
+    <attr format="integer" name="scroll_time"/>
+    <attr format="boolean" name="is_auto_play"/>
+    <attr format="color|reference" name="title_background"/>
+    <attr format="color" name="title_textcolor"/>
+    <attr format="dimension" name="title_textsize"/>
+    <attr format="dimension" name="title_height"/>
+    <attr format="dimension" name="indicator_width"/>
+    <attr format="dimension" name="indicator_height"/>
+    <attr format="dimension" name="indicator_margin"/>
+    <attr format="reference" name="indicator_drawable_selected"/>
+    <attr format="reference" name="indicator_drawable_unselected"/>
+    <attr format="enum" name="image_scale_type">
+      <enum name="center" value="0"/>
+      <enum name="center_crop" value="1"/>
+      <enum name="center_inside" value="2"/>
+      <enum name="fit_center" value="3"/>
+      <enum name="fit_end" value="4"/>
+      <enum name="fit_start" value="5"/>
+      <enum name="fit_xy" value="6"/>
+      <enum name="matrix" value="7"/>
+    </attr>
+    <!--<attr name="indicator_animator" format="reference" />-->
+    <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    <attr format="dimension" name="indicator_bottom_margin"/>
+    <attr format="dimension" name="indicator_right_margin"/>
+    <attr format="boolean" name="use_indicator_drawable_size"/>
+  </declare-styleable>
+  <declare-styleable name="SmartRefreshLayout">
+    <attr name="srlPrimaryColor"/>
+    <attr name="srlAccentColor"/>
+    <attr format="integer" name="srlReboundDuration"/>
+    <attr format="dimension" name="srlHeaderHeight"/>
+    <attr format="dimension" name="srlFooterHeight"/>
+    <attr format="float" name="srlDragRate"/>
+    <attr format="float" name="srlHeaderMaxDragRate"/>
+    <attr format="float" name="srlFooterMaxDragRate"/>
+    <attr format="float" name="srlHeaderTriggerRate"/>
+    <attr format="float" name="srlFooterTriggerRate"/>
+    <attr format="boolean" name="srlEnableRefresh"/>
+    <attr format="boolean" name="srlEnableLoadmore"/>
+    <attr format="boolean" name="srlEnableHeaderTranslationContent"/>
+    <attr format="boolean" name="srlEnableFooterTranslationContent"/>
+    <attr format="boolean" name="srlEnablePreviewInEditMode"/>
+    <attr format="boolean" name="srlEnableAutoLoadmore"/>
+    <attr format="boolean" name="srlEnableOverScrollBounce"/>
+    <attr format="boolean" name="srlEnablePureScrollMode"/>
+    <attr format="boolean" name="srlEnableNestedScrolling"/>
+    <attr format="boolean" name="srlEnableScrollContentWhenLoaded"/>
+    <attr format="boolean" name="srlEnableScrollContentWhenRefreshed"/>
+    <attr format="boolean" name="srlEnableLoadmoreWhenContentNotFull"/>
+    <attr format="boolean" name="srlEnableFooterFollowWhenLoadFinished"/>
+    <attr format="boolean" name="srlEnableOverScrollDrag"/>
+    <attr format="boolean" name="srlDisableContentWhenRefresh"/>
+    <attr format="boolean" name="srlDisableContentWhenLoading"/>
+    <attr format="reference" name="srlFixedHeaderViewId"/>
+    <attr format="reference" name="srlFixedFooterViewId"/>
+  </declare-styleable>
+
+  <declare-styleable name="SmartRefreshLayout_Layout">
+    <attr name="layout_srlSpinnerStyle"/>
+    <attr format="color" name="layout_srlBackgroundColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="BezierRadarHeader">
+    <attr name="srlPrimaryColor"/>
+    <attr name="srlAccentColor"/>
+    <attr name="srlEnableHorizontalDrag"/>
+  </declare-styleable>
+
+  <declare-styleable name="BallPulseFooter">
+    <attr name="srlClassicsSpinnerStyle"/>
+    <attr name="srlPrimaryColor"/>
+    <attr name="srlAccentColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="ClassicsHeader">
+    <attr name="srlClassicsSpinnerStyle"/>
+    <attr name="srlPrimaryColor"/>
+    <attr name="srlAccentColor"/>
+    <attr name="srlFinishDuration"/>
+    <attr name="srlDrawableArrow"/>
+    <attr name="srlDrawableProgress"/>
+    <attr name="srlDrawableMarginRight"/>
+    <attr name="srlDrawableSize"/>
+    <attr name="srlDrawableArrowSize"/>
+    <attr name="srlDrawableProgressSize"/>
+    <attr name="srlTextSizeTitle"/>
+    <attr name="srlTextSizeTime"/>
+    <attr format="dimension" name="srlTextTimeMarginTop"/>
+    <attr format="boolean" name="srlEnableLastTime"/>
+  </declare-styleable>
+
+  <declare-styleable name="ClassicsFooter">
+    <attr name="srlClassicsSpinnerStyle"/>
+    <attr name="srlPrimaryColor"/>
+    <attr name="srlAccentColor"/>
+    <attr name="srlFinishDuration"/>
+    <attr name="srlTextSizeTitle"/>
+    <attr name="srlDrawableArrow"/>
+    <attr name="srlDrawableProgress"/>
+    <attr name="srlDrawableMarginRight"/>
+    <attr name="srlDrawableSize"/>
+    <attr name="srlDrawableArrowSize"/>
+    <attr name="srlDrawableProgressSize"/>
+  </declare-styleable>
+
+  <declare-styleable name="MaterialHeader">
+    <attr format="color" name="mhPrimaryColor"/>
+    <attr format="color" name="mhShadowColor"/>
+    <attr format="dimension" name="mhShadowRadius"/>
+    <attr format="boolean" name="mhShowBezierWave"/>
+  </declare-styleable>
+
+  <declare-styleable name="pickerview">
+    <attr name="pickerview_gravity">
+      <enum name="center" value="17"/>
+      <enum name="left" value="3"/>
+      <enum name="right" value="5"/>
+    </attr>
+    <attr format="dimension" name="pickerview_textSize"/>
+    <attr format="color" name="pickerview_textColorOut"/>
+    <attr format="color" name="pickerview_textColorCenter"/>
+    <attr format="color" name="pickerview_dividerColor"/>
+    <attr format="float" name="pickerview_lineSpacingMultiplier"/>
+  </declare-styleable>
+
+  <!--圆弧进度条-->
+  <declare-styleable name="FaceCircleProcessView">
+    <attr format="dimension" name="fcpv_radius"/>
+    <attr format="dimension" name="fcpv_stroke_width"/>
+    <attr format="color" name="fcpv_circle_color"/>
+    <attr format="color" name="fcpv_ring_color"/>
+    <attr format="color" name="fcpv_ring_bg_color"/>
+    <attr format="color" name="fcpv_start_color"/>
+    <attr format="color" name="fcpv_end_color"/>
+  </declare-styleable>
+
+  <declare-styleable name="CommonTagView">
+    <attr format="string" name="comments"/>
+    <attr format="dimension" name="contentHorizontalPadding"/>
+    <attr format="integer" name="contentMaxRows"/>
+    <attr format="dimension" name="contentVerticalPadding"/>
+  </declare-styleable>
+
+  <declare-styleable name="Toolbar">
+    <attr format="string" name="toolbar_title"/>
+    <attr format="color" name="titleColor"/>
+    <attr format="color" name="backgroundColor"/>
+    <attr format="dimension" name="titleSize"/>
+    <attr format="boolean" name="titleVisibility"/>
+
+    <attr format="string" name="leftText"/>
+    <attr format="color" name="leftTextColor"/>
+    <attr format="dimension" name="leftTextSize"/>
+    <attr format="boolean" name="leftTextVisibility"/>
+
+    <attr format="string" name="rightText"/>
+    <attr format="color" name="rightTextColor"/>
+    <attr format="dimension" name="rightTextSize"/>
+    <attr format="boolean" name="rightTextVisibility"/>
+
+    <attr format="reference" name="leftIcon"/>
+    <attr format="boolean" name="leftIconVisibility"/>
+
+    <attr format="reference" name="rightIcon"/>
+    <attr format="boolean" name="rightIconVisibility"/>
+    <attr format="boolean" name="titleDividerVisibility"/>
+
+    <attr format="reference" name="rightLeftIcon"/>
+    <attr format="boolean" name="rightLeftIconVisibility"/>
+  </declare-styleable>
+
+  <declare-styleable name="DashLineView">
+    <attr format="color" name="dash_line_color"/>
+    <attr format="dimension"  name="dash_line_clearance"/>
+    <attr name="dash_line_orientation">
+      <enum name="horizontal" value="0"/>
+      <enum name="vertical" value="1"/>
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="EmptyView">
+    <attr format="string" name="tips"/>
+    <attr format="reference" name="icon"/>
+    <attr format="string" name="retry_text"/>
+    <attr format="boolean" name="isShowRetry"/>
+  </declare-styleable>
+
+  <declare-styleable name="PascUpRollView">
+    <attr format="integer" name="roll_interval"/>
+    <attr format="integer" name="roll_duration"/>
+  </declare-styleable>
+
+  <declare-styleable name="UpRollView">
+    <attr format="dimension" name="extraHeight"/>
+  </declare-styleable>
+
+  <declare-styleable name="ViewPagerIndicatorView">
+    <attr format="reference"  name="indicator_icon"/>
+    <attr name="indicator_margin"/>
+    <attr format="reference"  name="indicator_smooth"/>
+  </declare-styleable>
+
+  <!--滑轮控件-->
+  <declare-styleable name="WheelPicker">
+    <attr format="reference" name="wheel_data"/>
+    <attr format="integer" name="wheel_selected_item_position"/>
+    <attr format="dimension" name="wheel_item_text_size"/>
+    <attr format="color" name="wheel_item_text_color"/>
+    <attr format="color" name="wheel_selected_item_text_color"/>
+    <attr format="boolean" name="wheel_same_width"/>
+    <attr format="string" name="wheel_maximum_width_text"/>
+    <attr format="integer" name="wheel_maximum_width_text_position"/>
+    <attr format="integer" name="wheel_visible_item_count"/>
+    <attr format="dimension" name="wheel_item_space"/>
+    <attr format="boolean" name="wheel_cyclic"/>
+    <attr format="boolean" name="wheel_indicator"/>
+    <attr format="color" name="wheel_indicator_color"/>
+    <attr format="dimension" name="wheel_indicator_marginLeft"/>
+    <attr format="dimension" name="wheel_indicator_marginRight"/>
+    <attr format="dimension" name="wheel_indicator_size"/>
+    <attr format="boolean" name="wheel_curtain"/>
+    <attr format="color" name="wheel_curtain_color"/>
+    <attr format="boolean" name="wheel_atmospheric"/>
+    <attr format="boolean" name="wheel_curved"/>
+    <attr format="enum" name="wheel_item_align">
+      <enum name="center" value="0"/>
+      <enum name="left" value="1"/>
+      <enum name="right" value="2"/>
+    </attr>
+    <attr format="color" name="wheel_line_color"/>
+    <attr format="dimension" name="wheel_line_height"/>
+  </declare-styleable>
+
+  <!-- 以下是重用attr的正确姿势,一切为了在布局中可以自动提示-->
+  <!-- 圆角矩形背景色 -->
+  <attr format="color" name="rv_backgroundColor"/>
+  <!-- 圆角矩形背景色press -->
+  <attr format="color" name="rv_backgroundPressColor"/>
+  <!-- 圆角弧度,单位dp-->
+  <attr format="dimension" name="rv_cornerRadius"/>
+  <!-- 圆角弧度,单位dp-->
+  <attr format="dimension" name="rv_strokeWidth"/>
+  <!-- 圆角边框颜色-->
+  <attr format="color" name="rv_strokeColor"/>
+  <!-- 圆角边框颜色press -->
+  <attr format="color" name="rv_strokePressColor"/>
+  <!-- 文字颜色press-->
+  <attr format="color" name="rv_textPressColor"/>
+  <!-- 圆角弧度是高度一半-->
+  <attr format="boolean" name="rv_isRadiusHalfHeight"/>
+  <!-- 圆角矩形宽高相等,取较宽高中大值-->
+  <attr format="boolean" name="rv_isWidthHeightEqual"/>
+  <!-- 圆角弧度,单位dp,TopLeft-->
+  <attr format="dimension" name="rv_cornerRadius_TL"/>
+  <!-- 圆角弧度,单位dp,TopRight-->
+  <attr format="dimension" name="rv_cornerRadius_TR"/>
+  <!-- 圆角弧度,单位dp,BottomLeft-->
+  <attr format="dimension" name="rv_cornerRadius_BL"/>
+  <!-- 圆角弧度,单位dp,BottomRight-->
+  <attr format="dimension" name="rv_cornerRadius_BR"/>
+  <!-- 是否有Ripple效果,api21+有效-->
+  <attr format="boolean" name="rv_isRippleEnable"/>
+
+
+  <declare-styleable name="RoundLinearLayout">
+    <attr name="rv_backgroundColor"/>
+    <attr name="rv_backgroundPressColor"/>
+    <attr name="rv_cornerRadius"/>
+    <attr name="rv_strokeWidth"/>
+    <attr name="rv_strokeColor"/>
+    <attr name="rv_strokePressColor"/>
+    <attr name="rv_isRadiusHalfHeight"/>
+    <attr name="rv_isWidthHeightEqual"/>
+    <attr name="rv_cornerRadius_TL"/>
+    <attr name="rv_cornerRadius_TR"/>
+    <attr name="rv_cornerRadius_BL"/>
+    <attr name="rv_cornerRadius_BR"/>
+    <attr name="rv_isRippleEnable"/>
+  </declare-styleable>
+
+  <declare-styleable name="RoundRelativeLayout">
+    <attr name="rv_backgroundColor"/>
+    <attr name="rv_backgroundPressColor"/>
+    <attr name="rv_cornerRadius"/>
+    <attr name="rv_strokeWidth"/>
+    <attr name="rv_strokeColor"/>
+    <attr name="rv_strokePressColor"/>
+    <attr name="rv_isRadiusHalfHeight"/>
+    <attr name="rv_isWidthHeightEqual"/>
+    <attr name="rv_cornerRadius_TL"/>
+    <attr name="rv_cornerRadius_TR"/>
+    <attr name="rv_cornerRadius_BL"/>
+    <attr name="rv_cornerRadius_BR"/>
+    <attr name="rv_isRippleEnable"/>
+  </declare-styleable>
+
+  <declare-styleable name="RoundFrameLayout">
+    <attr name="rv_backgroundColor"/>
+    <attr name="rv_backgroundPressColor"/>
+    <attr name="rv_cornerRadius"/>
+    <attr name="rv_strokeWidth"/>
+    <attr name="rv_strokeColor"/>
+    <attr name="rv_strokePressColor"/>
+    <attr name="rv_isRadiusHalfHeight"/>
+    <attr name="rv_isWidthHeightEqual"/>
+    <attr name="rv_cornerRadius_TL"/>
+    <attr name="rv_cornerRadius_TR"/>
+    <attr name="rv_cornerRadius_BL"/>
+    <attr name="rv_cornerRadius_BR"/>
+    <attr name="rv_isRippleEnable"/>
+  </declare-styleable>
+
+  <declare-styleable name="PascToggleButton">
+    <!--边框大小-->
+    <attr format="dimension" name="tbBorderWidth"/>
+    <!--边框颜色（关闭状态）-->
+    <attr format="reference|color" name="tbOffBorderColor"/>
+    <!--关闭颜色-->
+    <attr format="reference|color" name="tbOffColor"/>
+    <!--开启颜色-->
+    <attr format="reference|color" name="tbOnColor"/>
+    <!--手柄颜色-->
+    <attr format="reference|color" name="tbSpotColor"/>
+    <!--是否开启动画，默认true-->
+    <attr format="reference|boolean" name="tbIsAnimate"/>
+    <!--按钮是否开启，默认false-->
+    <attr format="reference|boolean" name="tbIsDefaultOn"/>
+  </declare-styleable>
+
+  <!--*****PascTabLayout******-->
+  <declare-styleable name="PascTabLayout">
+    <attr format="dimension" name="tl_indicator_height"/>
+    <attr format="boolean" name="tl_indicator_top"/>
+    <attr format="boolean" name="tl_indicator_with_follow_content"/>
+    <attr format="boolean" name="tl_has_indicator"/>
+    <attr name="android:textSize"/>
+    <attr format="dimension" name="tl_normal_text_size"/>
+    <attr format="dimension" name="tl_selected_text_size"/>
+    <attr format="color|reference" name="tl_normal_color"/>
+    <attr format="color|reference" name="tl_selected_color"/>
+    <attr format="enum" name="tl_mode">
+      <enum name="scrollable" value="0"/>
+      <enum name="fixed" value="1"/>
+    </attr>
+    <attr format="dimension" name="tl_space"/>
+    <attr format="enum" name="tl_icon_position">
+      <enum name="left" value="0"/>
+      <enum name="top" value="1"/>
+      <enum name="right" value="2"/>
+      <enum name="bottom" value="3"/>
+    </attr>
+  </declare-styleable>
+  <attr format="reference" name="PascTabLayoutStyle"/>
+  <!--*****PascTabLayout******-->
+
+  <declare-styleable name="PascTextAppearance">
+    <attr name="android:textSize"/>
+    <attr name="android:textColor"/>
+    <attr name="android:textColorHint"/>
+    <attr name="android:textStyle"/>
+    <attr name="android:typeface"/>
+    <attr name="textAllCaps"/>
+    <attr name="android:shadowColor"/>
+    <attr name="android:shadowDy"/>
+    <attr name="android:shadowDx"/>
+    <attr name="android:shadowRadius"/>
+  </declare-styleable>
+
+  <attr format="reference" name="tl_sign_count_view"/>
+  <attr format="dimension" name="tl_sign_count_view_minSize"/>
+  <attr format="dimension" name="tl_sign_count_view_minSize_with_text"/>
+  <attr format="reference" name="tl_sign_count_view_bg"/>
+  <attr format="dimension" name="tl_sign_count_view_padding_horizontal"/>
+
+  <!--**************PascCatalogSelectView*************-->
+  <declare-styleable name="PascCatalogSelectView">
+    <attr format="color|reference" name="cs_normal_text_color"/>
+    <attr format="color|reference" name="cs_selected_text_color"/>
+    <attr format="color|reference" name="cs_bg_color_item_normal"/>
+    <attr format="color|reference" name="cs_bg_color_item_selected"/>
+    <attr name="android:textSize"/>
+    <attr format="dimension" name="cs_item_height"/>
+    <attr format="dimension" name="cs_left_width"/>
+  </declare-styleable>
+
+  <!--**************PascPopup*************-->
+  <attr format="reference" name="pasc_popup_bg"/>
+  <attr format="reference" name="pasc_popup_arrow_down"/>
+  <attr format="reference" name="pasc_popup_arrow_up"/>
+  <attr format="dimension" name="pasc_popup_arrow_up_margin_top"/> <!-- 一般与qmui_popup_bg上阴影相等 -->
+  <attr format="dimension" name="pasc_popup_arrow_down_margin_bottom"/> <!-- 一般与qmui_popup_bg下阴影相等 -->
+
+  <declare-styleable name="PascRatioImageView">
+    <attr format="float" name="priv_widthRatio"/>
+    <attr format="float" name="priv_heightRatio"/>
+    <attr format="enum" name="priv_ratioRef">
+      <enum name="none" value="0"/>
+      <enum name="width" value="1"/>
+      <enum name="height" value="2"/>
+    </attr>
+  </declare-styleable>
+</resources>

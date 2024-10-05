@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/tabSegment_mode_general"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_general"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/tabSegment_mode_bottom_indicator"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_bottom_indicator"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/tabSegment_mode_top_indicator"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_top_indicator"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/tabSegment_mode_indicator_with_content"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_indicator_with_content"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_left_icon_and_auto_tint"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_left_icon_and_auto_tint"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_sign_count"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_sign_count"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_icon_change"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_icon_change"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_muti_color"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_muti_color"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_change_content_by_index"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_change_content_by_index"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_replace_tab_by_index"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_replace_tab_by_index"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_scale_selected"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_scale_selected"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tabSegment_mode_change_gravity"
+        android:orderInCategory="100"
+        android:title="@string/tabSegment_mode_change_gravity"
+        app:showAsAction="never"/>
+
+</menu>

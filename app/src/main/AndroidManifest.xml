@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pasc.lib.demo">
+
+    <application
+        android:name=".AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DemoMainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".widget.banner.MainActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.toast.MainActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoLoadingDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoConfirmDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoPermissionDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoPraiseDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoChoiceDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoInsetDialogActivity" />
+        <activity
+            android:name="com.pasc.lib.demo.widget.dialog.DemoIconActionDialogActivity"
+            android:label="图标操作对话框" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoBottomChoiceDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.popup.DemoPascListPopupWindowActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoBottomPickerDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.dialog.DemoCategorySelectionDialogActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.catalog.DemoCatalogSelectionDialogActivity" />
+        <activity android:name=".widget.toolbar.ToolbarActivity" />
+        <activity android:name=".widget.toolbar.SearchBarActivity"></activity>
+        <activity
+            android:name="com.pasc.lib.demo.widget.input.DemoTextInputActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="com.pasc.lib.demo.widget.button.DemoPascLoadingButtonActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.feedback.DemoFeedbackActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.feedback.DemoAbnormalActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.swiperefresh.DemoSwipeRefreshActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.swiperefresh.DemoSwipeRefreshListViewActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.list.DemoListActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.roundview.DemoRoundViewActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.flowlayout.DemoFlowLayoutActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.photoview.DemoPhotoActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.seriesadapter.DemoSeriesAdapterActivity" />
+        <activity android:name="com.pasc.lib.demo.widget.uprollview.DemoUpRollViewActivity" />
+        <activity android:name=".widget.theme.MainActivity" />
+        <activity android:name=".widget.cardheader.CardHeaderActivity" />
+        <activity android:name=".widget.viewcontainer.DemoViewContainerActivity" />
+        <activity android:name=".widget.scrolltext.DemoScrollTextViewActivity" />
+        <activity android:name=".widget.DemoFaceCircleProcessViewActivity" />
+        <activity android:name=".widget.DemoEmptyViewActivity" />
+        <activity android:name=".widget.DemoCallCardViewActivity" />
+        <activity android:name=".widget.DemoDashLineActivity" />
+        <activity android:name=".widget.DemoCreditDialActivity" />
+        <activity android:name=".widget.DemoDefaultPageActivity" />
+        <activity android:name=".widget.button.DemoPascToggleButtonActivity"/>
+        <activity android:name=".widget.dialog.DemoPermissionDialog2Activity"/>
+        <activity android:name=".widget.tablayout.TabLayoutSampleActivity"/>
+        <activity android:name=".widget.tablayout.BottomNavigationBarSampleActivity"/>
+        <activity android:name=".widget.tablayout.SegmentedSampleActivity"/>
+        <activity android:name=".widget.catalog.DemoCatalogSelectViewActivity"/>
+        <activity android:name=".widget.popup.DemoPascPopupWindowActivity"/>
+
+    </application>
+
+</manifest>

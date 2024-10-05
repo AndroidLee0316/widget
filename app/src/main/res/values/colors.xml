@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="positive_text_Color">#27A5F9</color>
+
+    <color name="location_title_Color">#2E332F</color>
+
+    <color name="location_negative_Color">#666666</color>
+    <color name="location_desc_Color">#999999</color>
+
+    <color name="authority_desc_Color"> #333333</color>
+
+
+    <color name="choice_dialog_title_color"> #333333</color>
+    <color name="button_text">#111211</color>
+
+    <color name="primary">#3F51B5</color>
+    <color name="round_view_color">#365cdd</color>
+
+    <color name="main_tab_press">#dee0e2</color>
+
+</resources>

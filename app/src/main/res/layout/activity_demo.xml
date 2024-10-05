@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.pasc.lib.widget.tablayout.PascTabLayout
+        android:id="@+id/PascTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tl_selected_color="#27A5F9"
+        app:tl_normal_color="#666666"
+        android:background="@drawable/tl_s_item_bg_with_border_top"
+        app:tl_icon_position="top"/>
+
+</LinearLayout>

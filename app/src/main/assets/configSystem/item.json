@@ -1,0 +1,9 @@
+{
+  "type": "component-singleText",
+  "title": "加载中按钮(未完成)",
+  "style": {
+    "padding": "[8,16,8,16]"
+  },
+  "dividerRight": true,
+  "dividerRightLength": 16
+}

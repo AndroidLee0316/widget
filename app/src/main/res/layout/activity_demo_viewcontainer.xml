@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pasc.lib.widget.viewcontainer.ViewContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    >
+
+  <LinearLayout
+      android:id="@+id/content"
+      android:layout_width="300dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="100dp"
+      android:background="@color/pasc_warning"
+      android:orientation="vertical"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="测试内容，测试内容 ，测试内容，测试内容"
+          />
+  </LinearLayout>
+
+</com.pasc.lib.widget.viewcontainer.ViewContainer>

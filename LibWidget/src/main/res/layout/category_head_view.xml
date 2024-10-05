@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/head_container_tips"
+	android:layout_width="match_parent"
+	android:background="@color/white"
+	android:layout_height="wrap_content"
+	android:foreground="@drawable/fg_clickable"
+	android:gravity="center">
+	<LinearLayout
+		android:id="@+id/category_lin"
+		android:layout_width="match_parent"
+		android:layout_height="33dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/category_img"
+			android:layout_width="10dp"
+			android:layout_height="10dp"
+			android:background="@drawable/hollow_circle_blue_point" />
+		<TextView
+			android:id="@+id/category_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textColor="#4D73F4"
+			android:textSize="15sp"
+			android:text="请选择一级分类" />
+	</LinearLayout>
+
+</LinearLayout>

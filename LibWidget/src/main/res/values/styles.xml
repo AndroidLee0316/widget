@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PascRootTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <!-- 主题样式 -->
+    <style name="PascTheme" parent="PascRootTheme">
+
+        <!--***************PascTabLayout****************-->
+        <item name="tl_sign_count_view">@style/pasc_tl_sign_count_view</item>
+        <item name="tl_sign_count_view_minSize">@dimen/tl_sign_count_view_minSize</item>
+        <item name="tl_sign_count_view_minSize_with_text">
+            @dimen/tl_sign_count_view_minSize_with_text
+        </item>
+        <item name="tl_sign_count_view_bg">@drawable/pasc_tl_sign_count_view_bg</item>
+        <item name="tl_sign_count_view_padding_horizontal">4dp</item>
+
+        <!--***************PascPopup****************-->
+        <item name="pasc_popup_bg">@drawable/pasc_popup_bg</item>
+        <item name="pasc_popup_arrow_down">@drawable/pasc_popup_arrow_down</item>
+        <item name="pasc_popup_arrow_up">@drawable/pasc_popup_arrow_up</item>
+        <item name="pasc_popup_arrow_up_margin_top">13dp</item>
+        <item name="pasc_popup_arrow_down_margin_bottom">13dp</item>
+
+    </style>
+
+    <style name="AndroidImageSlider_Corner_Oval_Orange">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/indicator_corner_bg</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#f60</item>
+        <item name="unselected_color">#ffffff</item>
+        <item name="selected_width">6dp</item>
+        <item name="selected_height">6dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style>
+
+    <style name="AndroidImageSlider_Attractive_Rect_Blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">rect</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#30CCE5</item>
+        <item name="unselected_color">#333333</item>
+        <item name="selected_width">13dp</item>
+        <item name="selected_height">4dp</item>
+        <item name="unselected_width">13dp</item>
+        <item name="unselected_height">4dp</item>
+    </style>
+
+    <style name="AndroidImageSlider_Magnifier_Oval_Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#333333</item>
+        <item name="unselected_color">#33000000</item>
+        <item name="selected_width">8dp</item>
+        <item name="selected_height">8dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style>
+
+    <style name="LoadingDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/LoadingDialogAnimation</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="InsetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/LoadingDialogAnimation</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="IconActionDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialogAnimation</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="BottomChoiceDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialogAnimation</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="LoadingDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_loading_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_loading_out</item>
+    </style>
+
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_out</item>
+    </style>
+
+    <style name="PascToolbarBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="title_text_size">18dp</item>
+        <item name="sub_title_text_size">13dp</item>
+        <item name="menu_text_size">16sp</item>
+        <item name="enable_under_divider">true</item>
+        <item name="under_divider_color">#E0E0E0</item>
+        <item name="under_divider_height">1px</item>
+    </style>
+
+    <style name="BlackFontToolbar" parent="PascToolbarBase">
+        <item name="title_text_color">#333333</item>
+        <item name="android:background">#ffffff</item>
+        <item name="sub_title_text_color">#333333</item>
+        <item name="menu_text_color">#333333</item>
+        <item name="back_icon">@drawable/ic_back_black</item>
+    </style>
+
+    <style name="WhiteFontToolbar" parent="PascToolbarBase">
+        <item name="title_text_color">#ffffff</item>
+        <item name="android:background">#27A5F9</item>
+        <item name="sub_title_text_color">#b2ffffff</item>
+        <item name="menu_text_color">#ffffff</item>
+        <item name="back_icon">@drawable/ic_back_white</item>
+    </style>
+
+    <style name="Dialog.NoTitle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationPicker</item>
+    </style>
+
+    <style name="AnimationPicker" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_out</item>
+    </style>
+
+
+    <style name="MyDialogAnimation_Translate_bottom">
+        <!--进入 -->
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_translate_bottom</item>
+        <!--退出-->
+        <item name="android:windowExitAnimation">@anim/dialog_exit_translate_bottom</item>
+    </style>
+    <style name="MyDialogAnimation_Translate_Left">
+        <!--进入 -->
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_translate_left</item>
+        <!--退出-->
+        <item name="android:windowExitAnimation">@anim/dialog_exit_translate_right</item>
+    </style>
+    <style name="MyDialogAnimation_Rotate">
+        <!--进入 -->
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_rotate</item>
+        <!--退出-->
+        <item name="android:windowExitAnimation">@anim/dialog_exit_rotate</item>
+    </style>
+
+    <style name="style_dialog_select_item" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:backgroundStacked">#000000</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/AnimationPicker</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+
+
+    <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+
+    <style name="pickerview_dialogAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
+    </style>
+
+    <style name="base_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:background">@android:color/transparent</item>
+        <!--背景-->
+        <item name="android:backgroundDimAmount">0.7</item>
+        <!--蒙层70%-->
+    </style>
+
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <!-- Loading Dialog -->
+    <style name="common_loading_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="RoundDialog" parent="AppBaseDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--appBaseDialog-->
+    <style name="AppBaseDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:backgroundStacked">#000000</item>
+    </style>
+
+    <style name="style_pop_select_bank">
+        <item name="android:windowEnterAnimation">@anim/pop_select_bank_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_select_bank_out</item>
+    </style>
+
+    <style name="pasc_tl_sign_count_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">?attr/tl_sign_count_view_minSize</item>
+        <item name="android:background">?attr/tl_sign_count_view_bg</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">?attr/tl_sign_count_view_padding_horizontal</item>
+        <item name="android:paddingRight">?attr/tl_sign_count_view_padding_horizontal</item>
+        <item name="android:minWidth">?attr/tl_sign_count_view_minSize</item>
+        <item name="android:minHeight">?attr/tl_sign_count_view_minSize</item>
+    </style>
+
+    <!--**********************************PopWindow弹出动画style开始*************************************-->
+    <style name="Pasc.Animation" parent="@android:style/Animation"/>
+
+    <style name="Pasc.Animation.PopUpMenu"/>
+
+    <style name="Pasc.Animation.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Pasc.Animation.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Pasc.Animation.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Pasc.Animation.PopDownMenu"/>
+
+    <style name="Pasc.Animation.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Pasc.Animation.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Pasc.Animation.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <!--**********************************PopWindow弹出动画style结束*************************************-->
+
+</resources>

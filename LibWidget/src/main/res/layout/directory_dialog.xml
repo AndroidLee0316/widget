@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/driectory_singrecy_clerView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_height="215dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/driectory_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:background="@color/white"
+        android:layout_height="215dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sub_driectory_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:background="@color/pasc_click_feedback"
+        android:layout_height="215dp">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

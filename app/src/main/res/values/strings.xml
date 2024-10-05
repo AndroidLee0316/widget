@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">控件库</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+
+  <string name="tabSegment_item_1_title">Item 1</string>
+  <string name="tabSegment_item_2_title">Item 2</string>
+
+  <string name="tabSegment_item_1_content">这是第一个 Item 的内容区</string>
+  <string name="tabSegment_item_2_content">这是第二个 Item 的内容区</string>
+
+  <string name="tabSegment_mode_general">简单文字</string>
+  <string name="tabSegment_mode_bottom_indicator">文字 + 底部 indicator</string>
+  <string name="tabSegment_mode_top_indicator">文字 + 顶部 indicator</string>
+  <string name="tabSegment_mode_indicator_with_content">文字 + indicator 长度不要跟随内容长度</string>
+  <string name="tabSegment_mode_left_icon_and_auto_tint">文字 + icon(支持四个方向) + 自动着色选中态 icon</string>
+  <string name="tabSegment_mode_sign_count">显示红点</string>
+  <string name="tabSegment_mode_icon_change">选中态更换 icon</string>
+  <string name="tabSegment_mode_muti_color">不同 item，不同文字(icon)颜色</string>
+  <string name="tabSegment_mode_change_content_by_index">根据 index 更新 tab 文案</string>
+  <string name="tabSegment_mode_replace_tab_by_index">根据 index 完全替换 tab</string>
+  <string name="tabSegment_mode_scale_selected">放大选中态</string>
+  <string name="tabSegment_mode_change_gravity">修改 Gravity</string>
+
+</resources>

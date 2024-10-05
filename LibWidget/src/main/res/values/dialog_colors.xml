@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--DialogFragment弹窗标题-->
+    <color name="dialog_fragment_title">#333333</color>
+    <!--DialogFragment弹窗内容-->
+    <color name="dialog_fragment_content">#333333</color>
+    <!--DialogFragment弹窗提交按钮 按下-->
+    <color name="dialog_fragment_button_bg_press_blue">#1682D4</color>
+    <!--DialogFragment弹窗提交按钮 按下-->
+    <color name="dialog_fragment_button_bg_normal_blue">#27A5F9</color>
+
+</resources>

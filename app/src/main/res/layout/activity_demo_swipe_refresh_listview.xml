@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+
+    <com.pasc.lib.widget.swiperefresh.PaSwipeRefreshLayout
+        android:id="@+id/swipe_refresh_srl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/activity_demo_swipe_refresh_listview_lv"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.pasc.lib.widget.swiperefresh.PaSwipeRefreshLayout>
+
+
+
+
+</RelativeLayout>

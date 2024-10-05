@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:foreground="@drawable/fg_clickable"
+    android:paddingLeft="15dp"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            >
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#2E332F"
+
+                android:text="平安金融中心地下停车场"/>
+
+            <TextView
+                android:id="@+id/item1_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/pasc_secondary_text"
+                android:layout_below="@+id/item_title"
+                android:text="305m"/>
+            <TextView
+                android:id="@+id/item1_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:textColor="@color/pasc_secondary_text"
+                android:layout_below="@+id/item_title"
+                android:layout_toRightOf="@+id/item1_left"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="4dp"
+                android:text="深圳市福田区福华路399号"/>
+            
+            
+            <RelativeLayout
+                android:id="@+id/item2_rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item1_left">
+
+                <TextView
+                    android:id="@+id/item2_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/pasc_secondary_text"
+                    android:text="剩余车位12个"/>
+
+                <TextView
+                    android:id="@+id/item2_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/item2_left"
+                    android:textColor="@color/pasc_secondary_text"
+                    android:text="首小时3元"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_go"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+          <ImageView
+           android:layout_width="24dp"
+           android:layout_height="24dp"
+           android:src="@drawable/weather"/>
+
+            <TextView
+                android:id="@+id/item_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:text="去这里"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E0E0E0"
+        />
+</LinearLayout>

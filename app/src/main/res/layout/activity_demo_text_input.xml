@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带删除输入框"/>
+        <com.pasc.lib.widget.input.InputEditTextView
+            android:id="@+id/edit_text_with_del"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:hint="暗提示"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            customview:imgDelShow="true"
+          android:background="@null"
+            >
+        </com.pasc.lib.widget.input.InputEditTextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="多文本编辑框"/>
+
+    <com.pasc.lib.widget.input.InputEditTextView
+        android:id="@+id/edit_Text_field_view"
+        android:gravity="top"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="330dp"
+        android:layout_height="250dp"
+        android:minHeight="80dp"
+        customview:currentNumberTextSize="12sp"
+        customview:currentNumberTextColor="@color/pasc_clickable"
+        customview:sumNumberTextColor="@color/pasc_explain_text"
+        customview:sumNumberTextSize="12sp"
+        customview:sumNumberValue="100"
+        customview:currentNumberValue="0"
+        customview:imgDelShow="false"
+        customview:numberShow="true"
+        android:textSize="17sp"
+        android:hint="请输入问题描述"
+        >
+    </com.pasc.lib.widget.input.InputEditTextView>
+
+
+    </LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="PaCardHeaderView">
+    <attr name="title"/>
+    <attr name="sub_title"/>
+    <attr format="reference" name="card_icon"/>
+    <attr format="reference" name="more_icon"/>
+    <attr name="title_text_size"/>
+    <attr name="title_text_color"/>
+    <attr name="sub_title_text_size"/>
+    <attr name="sub_title_text_color"/>
+  </declare-styleable>
+</resources>

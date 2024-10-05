@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/picker_dialog_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+       android:gravity="center"
+      >
+        <TextView
+            android:id="@+id/close_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:textColor="@color/pasc_primary"
+            android:foreground="@drawable/fg_clickable"
+            android:textSize="17sp"
+            android:text="取消"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/pasc_primary_text"
+            android:text="标题"/>
+
+        <TextView
+            android:id="@+id/confirm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="17sp"
+            android:foreground="@drawable/fg_clickable"
+            android:textColor="@color/pasc_primary"
+            android:text="确定"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E0E0E0"></View>
+    <com.pasc.lib.widget.dialog.bottompicker.widget.CityPicker
+        android:id="@+id/city_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

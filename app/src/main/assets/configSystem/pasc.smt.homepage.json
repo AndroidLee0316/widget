@@ -1,0 +1,306 @@
+[
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "基础控件",
+      "titleBold": true,
+      "arrowIconVisible": false
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "加载中按钮(未完成)",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "下拉刷新",
+        "onClick": "router://com.pingan.smt/widget/demo/PaSwipeRefreshLayout"
+      },
+      {
+        "type": "component-singleText",
+        "title": "滚动文本",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/ScrollTextView"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "圆形进度控件",
+        "onClick": "router://com.pingan.smt/widget/demo/FaceCircleProcessView"
+      },
+      {
+        "type": "component-singleText",
+        "title": "信用评分控件",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/CreditDialView"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "文本输入框",
+        "onClick": "router://com.pingan.smt/widget/demo/InputEditTextView"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "布局",
+      "titleBold": true,
+      "arrowIconVisible": false
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "上滚视图",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/UpRollView"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "广告栏",
+        "onClick": "router://com.pingan.smt/widget/demo/SliderLayout"
+      },
+      {
+        "type": "component-singleText",
+        "title": "工具栏",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/PascToolbar"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "列表",
+        "onClick": "router://com.pingan.smt/widget/demo/PaRecyclerView"
+      },
+      {
+        "type": "component-singleText",
+        "title": "缺省页",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/DefaultPageView"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "模块标题",
+        "onClick": "router://com.pingan.smt/widget/demo/PaCardHeaderView"
+      },
+      {
+        "type": "component-singleText",
+        "title": "目录选择",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/CatalogSelect"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "搜索导航",
+        "onClick": "router://com.pingan.smt/widget/demo/PascSearchBar"
+      },
+      {
+        "type": "component-singleText",
+        "title": "圆角布局",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/RoundLinearLayout"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "流式布局",
+        "onClick": "router://com.pingan.smt/widget/demo/TagFlowLayout"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "对话框",
+      "titleBold": true,
+      "arrowIconVisible": false
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "确认对话框",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/ConfirmDialogFragment"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "插画对话框",
+        "onClick": "router://com.pingan.smt/widget/demo/InsetDialogFragment"
+      },
+      {
+        "type": "component-singleText",
+        "title": "图标操作对话框",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/IconActionDialogFragment"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "弹出选择框",
+        "onClick": "router://com.pingan.smt/widget/demo/PascSelectPopupWindow"
+      },
+      {
+        "type": "component-singleText",
+        "title": "列表选择对话框",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/BottomChoiceDialogFragment"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "底部日期选择对话框",
+        "onClick": "router://com.pingan.smt/widget/demo/DatePickerDialogFragment"
+      },
+      {
+        "type": "component-singleText",
+        "title": "好评对话框(未完成)",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "权限对话框",
+        "onClick": "router://com.pingan.smt/widget/demo/PermissionDialogFragment"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "其他控件",
+      "titleBold": true,
+      "arrowIconVisible": false
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "主题",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pingan.smt/widget/demo/SkinCompatManager"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,16,8,16]"
+        },
+        "title": "提示信息",
+        "onClick": "router://com.pingan.smt/widget/demo/Toasty"
+      }
+    ]
+  }
+]

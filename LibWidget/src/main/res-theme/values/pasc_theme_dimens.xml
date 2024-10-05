@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- 窗口标题 -->
+    <dimen name="pasc_window_title_size">22sp</dimen>
+    <!-- 导航栏标题/卡片标题 -->
+    <dimen name="pasc_navigation_title_size">18sp</dimen>
+    <!-- 列表标题 -->
+    <dimen name="pasc_list_title_size">17sp</dimen>
+    <!-- 输入框标题 -->
+    <dimen name="pasc_edittext_title_size">16sp</dimen>
+    <!-- 内容文本 -->
+    <dimen name="pasc_content_text_size">15sp</dimen>
+    <!-- 描述性文本/图标下的文本 -->
+    <dimen name="pasc_desc_text_size">13sp</dimen>
+
+    <!-- 食品扫码检测数字 -->
+    <dimen name="pasc_scan_number_size">54sp</dimen>
+    <!-- 辅助性说明文本 -->
+    <dimen name="pasc_explain_text_size">12sp</dimen>
+    <!-- 标签内文本 -->
+    <dimen name="pasc_label_text_size">11sp</dimen>
+
+    <!-- 活动页水平边缘间距 -->
+    <dimen name="pasc_activity_horizontal_margin">15dp</dimen>
+    <!-- 卡片垂直间距 -->
+    <dimen name="pasc_card_vertical_margin">10dp</dimen>
+    <!-- 列表项水平边缘间距 -->
+    <dimen name="pasc_list_item_horizontal_margin">15dp</dimen>
+
+    <!-- 登录页水平边缘间距 -->
+    <dimen name="pasc_login_horizontal_margin">30dp</dimen>
+
+    <!-- 单文本列表项高度 -->
+    <dimen name="pasc_list_single_text_item_height">45dp</dimen>
+
+    <!-- 长按钮高度 -->
+    <dimen name="pasc_button_long_height">50dp</dimen>
+
+    <!-- 短按钮高度 -->
+    <dimen name="pasc_button_short_height">44dp</dimen>
+
+    <!-- 底部按钮高度 -->
+    <dimen name="pasc_button_bottom_height">50dp</dimen>
+
+    <!-- 卡片标题高度 -->
+    <dimen name="pasc_card_title_height">60dp</dimen>
+
+    <!-- 删除按钮高度 -->
+    <dimen name="pasc_button_delete_height">36dp</dimen>
+    <!-- 删除按钮宽度 -->
+    <dimen name="pasc_button_delete_width">84dp</dimen>
+
+    <!-- 打开按钮高度 -->
+    <dimen name="pasc_button_open_height">32dp</dimen>
+    <!-- 打开按钮宽度 -->
+    <dimen name="pasc_button_open_width">68dp</dimen>
+
+    <!-- 提示页按钮高度 -->
+    <dimen name="pasc_button_tips_height">44dp</dimen>
+    <!-- 提示页按钮宽度 -->
+    <dimen name="pasc_button_tips_width">116dp</dimen>
+
+
+    <!-- 细微 -->
+    <dimen name="pasc_text_size_tiny">10sp</dimen>
+    <!-- 极小 -->
+    <dimen name="pasc_text_size_minimum">12sp</dimen>
+    <!-- 小 -->
+    <dimen name="pasc_text_size_small">14sp</dimen>
+    <!-- 中 -->
+    <dimen name="pasc_text_size_medium">16sp</dimen>
+    <!-- 略大 -->
+    <dimen name="pasc_text_size_slightly_large">18sp</dimen>
+    <!-- 大 -->
+    <dimen name="pasc_text_size_large">20sp</dimen>
+    <!-- 极大 -->
+    <dimen name="pasc_text_size_maximum">22sp</dimen>
+
+</resources>

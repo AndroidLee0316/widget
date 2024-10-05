@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6f9"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_common_search_bar" />
+
+    <!-- 搜索历史与热门搜索-->
+    <LinearLayout
+        android:id="@+id/search_history_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/ll_history_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="搜索历史"
+                android:textColor="#969696"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/iv_search_history_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:src="@drawable/ic_service_search_history_del" />
+
+        </LinearLayout>
+
+        <com.pasc.lib.widget.flowlayout.TagFlowLayout
+            android:id="@+id/search_history_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:auto_select_effect="false"
+            app:gravity="left" />
+
+        <!-- 热门搜索-->
+        <TextView
+            android:id="@+id/tv_hot_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="@dimen/dp_4"
+            android:drawableRight="@drawable/ic_fire"
+            android:gravity="center_vertical"
+            android:text="热门搜索"
+            android:textColor="#969696"
+            android:textSize="13sp" />
+
+        <com.pasc.lib.widget.flowlayout.TagFlowLayout
+            android:id="@+id/search_hot_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:auto_select_effect="false"
+            app:gravity="left" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_service_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</LinearLayout>

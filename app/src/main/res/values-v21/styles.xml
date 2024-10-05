@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="PascTheme">
+        <!-- Customize your theme here. -->
+
+        <!-- 主题变更状态栏的颜色 -->
+        <item name="android:statusBarColor">@color/pasc_success</item>
+    </style>
+</resources>

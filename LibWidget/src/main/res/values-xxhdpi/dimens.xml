@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="view_container_margin">96dp</dimen>
+    <dimen name="view_container_margin_m">-96dp</dimen>
+</resources>

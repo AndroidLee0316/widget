@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/title_devider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#d5d5d5"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="公交站点"
+        android:textColor="#6a6a6a"
+        android:textSize="13sp" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line_width"
+        android:background="#d5d5d5"/>
+
+</LinearLayout>

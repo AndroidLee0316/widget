@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets {
+        main {
+            res.srcDirs("src/main/res", "src/main/res-theme")
+        }
+    }
+
+//    resourcePrefix "pasc_widget_"
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api LIB_APPCOMPAT_V7
+    api LIB_SUPPORT_V4
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    api 'com.android.support:recyclerview-v7:27.1.1'
+    api 'com.android.support:design:27.1.1'
+    api 'com.android.support:cardview-v7:27.1.1'
+    api 'com.android.support:gridlayout-v7:27.1.1'
+
+    api 'com.android.support:percent:27.1.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+
+    api 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
+    api 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.1.1'
+    api 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1'
+    api 'com.jakewharton.rxbinding2:rxbinding-design:2.1.1'
+    api 'com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1'
+//takephoto
+    api 'com.soundcloud.android.crop:lib_crop:1.0.0'
+    api 'com.darsh.multipleimageselect:multipleimageselect:1.0.4'
+    api LIB_ADVANCED_LUBAN
+
+    // zxing二维码扫描
+    implementation 'com.journeyapps:zxing-android-embedded:3.3.0'
+
+    api 'me.gujun.android.taggroup:library:1.4@aar'
+
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    // 替代官方的TabLayout
+    api 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    api 'com.android.support:support-core-utils:27.1.1'
+}
+
+apply plugin: 'maven'
+uploadArchives{
+    repositories.mavenDeployer{
+        pom.groupId = "com.zxs.lib"// 唯一标识（通常为模块包名，也可以任意）
+        pom.artifactId = "widget" // 项目名称（通常为类库模块名称，也可以任意）
+        pom.version = "1.0.0" // 版本号
+        // 配置本地仓库路径，项目根目录下的repository目录中
+        repository(url: uri('E:/zxsCode/maven'))
+    }
+}

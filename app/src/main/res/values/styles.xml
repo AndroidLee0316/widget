@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="PascTheme">
+
+    </style>
+
+
+    <style name="list_text_error">
+
+        <item name="android:textColor">@color/pasc_error</item>
+
+    </style>
+
+    <style name="list_text_success">
+
+        <item name="android:textColor">@color/pasc_success</item>
+
+    </style>
+
+</resources>

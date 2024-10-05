@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <com.pasc.lib.widget.button.PascLoadingButton
+                android:id="@+id/bt_primary"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                app:background="@drawable/selector_primary_button"
+                app:text="主按钮"/>
+
+            <com.pasc.lib.widget.button.PascLoadingButton
+                android:id="@+id/bt_secondary"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:background="@drawable/selector_secondary_button"
+                app:loading_img="@drawable/ic_loading_blue_gray"
+                app:pressed_text_color="#999999"
+                app:text="次按钮"
+                app:text_color="#333333"
+                />
+
+            <com.pasc.lib.widget.button.PascLoadingButton
+                android:id="@+id/bt_tertiary"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:background="@drawable/selector_tertiary_button"
+                app:loading_img="@drawable/ic_loading_blue_gray"
+                app:text="线框按钮"
+                app:text_color="#27A5F9"
+                />
+
+            <com.pasc.lib.widget.button.PascLoadingButton
+                android:id="@+id/bt_short"
+                android:layout_width="84dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:background="@drawable/selector_primary_button"
+                app:loading_img="@drawable/ic_loading_white_gray"
+                app:text="短按钮"
+                app:text_size="17sp"/>
+
+            <com.pasc.lib.widget.button.PascToggleButton
+                android:layout_width="52dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

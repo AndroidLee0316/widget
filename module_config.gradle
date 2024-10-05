@@ -1,0 +1,10 @@
+ext {
+    versionName = "1.0.0"
+    versionCode = 100
+    // Sdk and tools
+    minSdkVersion = 21
+    targetSdkVersion = 30
+    compileSdkVersion = 30
+    buildToolsVersion = '30.0.3'
+
+}

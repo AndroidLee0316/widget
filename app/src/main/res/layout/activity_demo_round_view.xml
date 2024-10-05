@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆角支持FrameLayout，LinearLayout，RelativeLayout，TextView"/>
+
+
+    <com.pasc.lib.widget.roundview.RoundLinearLayout
+        android:id="@+id/round_lin"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/pasc_warning"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+    </com.pasc.lib.widget.roundview.RoundLinearLayout>
+
+</LinearLayout>
